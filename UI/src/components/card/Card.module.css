@@ -1,0 +1,6 @@
+.card {
+    background-color: aqua;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 15px 20px;
+}

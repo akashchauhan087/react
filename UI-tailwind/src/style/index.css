@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+#card-img-id::-webkit-scrollbar {
+    display: none;
+}

@@ -9,7 +9,6 @@ function Gallery (props){
         const response = await axios.get(`https://picsum.photos/v2/list?page=${index}&limit=10`);
         setImgData(response.data) ;
         // console.log(imgData);
-
     }
     useEffect(function(){
         api_call();
@@ -67,7 +66,7 @@ function Gallery (props){
                     onClick={() => {
                         setIndex(index+5);
                     }}
-                >Next</button>
+                >Next 5</button>
             </div>
         </div>
     )

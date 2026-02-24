@@ -30,7 +30,7 @@ function Gallery (props){
     }
 
     return(
-        <div className='p-5 flex flex-col items-center gap-14'>
+        <div className='p-5 flex flex-col items-center gap-6'>
             {/* <div>
                 <button
                     onClick={api_call}
@@ -42,7 +42,7 @@ function Gallery (props){
             <div className="flex flex-wrap gap-5">
                 {img_data}
             </div>
-            <div className="flex items-center gap-5 text-l">
+            <div className="flex items-center gap-4 text-l">
                 <button className="bg-sky-300 text-sm cursor-pointer active:scale-90 text-black, rounded-3xl px-6 py-2 font-semibold"
                     onClick={() => {
                         if (index > 1) {

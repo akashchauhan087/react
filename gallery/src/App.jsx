@@ -2,7 +2,9 @@ import Gallery from "./Gallery"
 
 function App(){
   return(
-    <Gallery />
+    <div className=" h-screen bg-gray-100">
+      <Gallery />
+    </div>
   )
 }
 

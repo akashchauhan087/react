@@ -20,7 +20,8 @@ function App(){
       </Routes>
 
       
-      <div className="h-[6%] bg-gray-500 align-bottom">
+      {/* <div className="h-[6%] bg-gray-500 align-bottom"> */}
+      <div className="absolute bottom-0 h-[6%] bg-gray-500">
         <Footer />
       </div>
     </div>
